@@ -1,0 +1,328 @@
+#background img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.bio {
+	background-color: #00000096;
+	width: 18%;
+	height: 47px;
+	z-index: 1;
+	position: fixed;
+	top:55px;
+	left: 41%;
+}
+.bio p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	position: fixed;
+	top: 50px;
+	left: 42%;
+}
+.bio p:hover{
+	background-color: black;
+	padding: 2px;
+}
+.persona p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: whitw;
+	position: fixed;
+	top: 50px;
+	left: 44%;
+}
+.persona p:hover{
+	background-color: black;
+}
+.verbatim p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	position: fixed;
+	top: 50px;
+	left: 47.5%;
+}
+.verbatim p:hover{
+	background-color: black;
+}
+.pics p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	position: fixed;
+	top: 50px;
+	left: 51.5%;
+}
+.pics p:hover{
+	background-color: black;
+}
+.watch p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	position: fixed;
+	top: 50px;
+	left: 53.5%;
+}
+.watch p:hover{
+	background-color: black;
+}
+.feed p{
+	font-size: 18px;
+	font-family: Calibri;
+	color: white;
+	position: fixed;
+	top: 50px;
+	left: 56.5%;
+}
+.feed p:hover{
+	background-color: black;
+}
+
+.bio_brief img{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+} 
+.bio_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 100%;
+	left: 52%;
+}
+.bio_brief p{
+	color: #656565;
+	font-size: 17px;
+	font-family: Calibri;
+	position: absolute;
+	top: 105%;
+	left: 52%;
+}
+.bio_brief input{
+	color: white;
+	width: 7%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 145%;
+	left: 52%;
+}
+
+.persona_brief img{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 150%;
+	left: 50%;
+} 
+.persona_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 150%;
+	left: 1%;
+}
+.persona_brief p{
+	color: #656565;
+	font-size: 17px;
+	font-family: Calibri;
+	position: absolute;
+	top: 155%;
+	left: 1%;
+}
+.persona_brief input{
+	color: white;
+	width: 7%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 195%;
+	left: 1%;
+}
+
+.verbatim_brief img{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 200%;
+	left: 0px;
+} 
+.verbatim_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 200%;
+	left: 52%;
+}
+.verbatim_brief p{
+	color: #656565;
+	font-size: 17px;
+	font-family: Calibri;
+	position: absolute;
+	top: 205%;
+	left: 52%;
+}
+.verbatim_brief input{
+	color: white;
+	width: 7%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 245%;
+	left: 52%;
+}
+
+.pics_brief{
+	width: 48%;
+	height: 48%;
+	background: rgba(128,128,128,0.1);
+	position: absolute;
+	display: inline;
+	top: 251%;
+	left: 1%;
+}
+
+.pics_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 1%;
+	left: 49%;
+}
+.list{
+	background: rgba(128,128,128,0.3);
+	margin: 6.5%;
+	padding: 1%;
+}
+.list ul{
+	list-style-type: none;
+}
+.list li{
+	display: inline;
+}
+.list img{
+	width: 235px;
+	height: 375px;
+	padding: 1%;
+}
+.list img:hover{
+	background: rgba(0, 0, 0, 0.3);
+}
+.pics_brief input{
+	color: white;
+	width: 12%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 91%;
+	left: 46.5%;
+}
+
+.watch_brief{
+	width: 48%;
+	height: 48%;
+	background: rgba(128,128,128,0.1);
+	position: absolute;
+	display: inline;
+	top: 251%;
+	right: 1%;
+}
+.watch_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 1%;
+	left: 49%;
+}
+.watch_brief input{
+	color: white;
+	width: 12%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 91%;
+	left: 46.5%;
+}
+
+.feed_brief{
+	width: 98%;
+	height: 48%;
+	background: rgba(128,128,128,0.1);
+	position: absolute;
+	display: inline;
+	top: 301%;
+	right: 1%;
+}
+.feed_brief h2{
+	color: #d3ac67;
+	font-family: Calibri;
+	position: absolute;
+	top: 1%;
+	left: 49%;
+}
+.feed_container{
+	background: rgba(128,128,128,0.3);
+	margin: 4%;
+	padding: 1.5%;
+}
+.feed_brief input{
+	color: white;
+	width: 7%;
+	background-color: #cf942b;
+	font-family: Calibri;
+	font-size: 17px;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	position: absolute;
+	top: 91%;
+	left: 46.5%;
+}
+
+.copyright{
+	width: 98%;
+	height: 5%;
+	background: rgba(128,128,128,1);
+	position: absolute;
+	display: inline;
+	top: 351%;
+	right: 1%;
+}
+.copyright h2{
+	color: whitesmoke;
+	font-family: Calibri;
+	position: absolute;
+	top: 1%;
+	left: 40%;
+}
+.copyright a{
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
